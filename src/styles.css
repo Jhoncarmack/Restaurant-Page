@@ -87,8 +87,8 @@ h6 {
 .home-container {
    width: 700px;
    height: 800px;
-   border: 1px solid blue;
-   color: white;
+
+   color: #222222;
 }
 .home-title-container {
    height: 100px;
@@ -96,6 +96,10 @@ h6 {
    display: flex;
    align-items: center;
    justify-content: center;
+   font-family: "Shadows Into Light", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 50px;
 }
 .home-summary {
    height: 700px;
@@ -103,6 +107,10 @@ h6 {
    flex-direction: column;
    justify-content: space-around;
    margin-inline: 40px;
+   font-family: "Sora", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
 }
 .home-description {
    display: flex;
@@ -110,14 +118,19 @@ h6 {
    align-items: center;
    gap: 10px;
 }
-.home-hour {
-}
-.home-location {
-}
+
 .home-footer {
+   display: flex;
    width: 100vw;
-   border: 1px solid white;
+
    height: 5%;
+   color: #222222;
+   justify-content: center;
+   align-items: center;
+   font-family: "Sora", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
 }
 .menu-container {
    width: 100px;
@@ -138,8 +151,8 @@ body {
 
    background: no-repeat url(./restaurant_one.jpg);
    background-position: center;
-   background-color: black;
-   background-size: cover;
+   background: linear-gradient(315deg, #e3e3e3, #ffffff);
+   background-size: contain;
    background-origin: padding-box;
 }
 nav {
@@ -153,3 +166,10 @@ header {
    flex-direction: column;
    gap: 30px;
 }
+/*
+2. Hours와 Location 크기 조절
+3. Home Menu Contact 버튼 스타일링하기
+4. 홈버튼을 먼저 다완성하고 그 스타일링을 menu와 contact에 이식
+5. 영문기술번역 읽고 맞게 하는지 확인
+6. 배포는 시간나면 하기
+*/
