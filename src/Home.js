@@ -43,7 +43,7 @@ function homeAddElement() {
    homeHourTitle.textContent = "Hours";
    homeHour.appendChild(homeHourTitle);
 
-   const value = [
+   const day = [
       "Sunday",
       "Monday",
       "Tuesday",
@@ -56,17 +56,17 @@ function homeAddElement() {
       const homeHourParagraph = document.createElement("p");
 
       if (
-         value[i] === "Monday" ||
-         value[i] === "Tuesday" ||
-         value[i] === "Wednesday"
+         day[i] === "Monday" ||
+         day[i] === "Tuesday" ||
+         day[i] === "Wednesday"
       ) {
-         homeHourParagraph.textContent = `${value[i]}: 6am - 6pm`;
-      } else if (value[i] === "Thursday" || value[i] === "Friday") {
-         homeHourParagraph.textContent = `${value[i]}: 6am - 10pm`;
-      } else if (value[i] === "Saturday") {
-         homeHourParagraph.textContent = `${value[i]}: 8am - 10pm`;
+         homeHourParagraph.textContent = `${day[i]}: 6am - 6pm`;
+      } else if (day[i] === "Thursday" || day[i] === "Friday") {
+         homeHourParagraph.textContent = `${day[i]}: 6am - 10pm`;
+      } else if (day[i] === "Saturday") {
+         homeHourParagraph.textContent = `${day[i]}: 8am - 10pm`;
       } else {
-         homeHourParagraph.textContent = `${value[i]}: 8am - 8pm`;
+         homeHourParagraph.textContent = `${day[i]}: 8am - 8pm`;
       }
 
       homeHour.appendChild(homeHourParagraph);
