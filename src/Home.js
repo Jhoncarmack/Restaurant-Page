@@ -5,7 +5,7 @@ export const homeButton = document.querySelector("#home");
 function homeAddElement() {
    const content = document.querySelector("#content");
    content.textContent = "";
-   const image = document.createElement("img");
+   // const image = document.createElement("img");
 
    // image.src = restaurantImage;
 
@@ -85,6 +85,6 @@ function homeAddElement() {
 
    const homeFooter = document.createElement("div");
    homeFooter.classList.add("home-footer");
-   homeFooter.textContent = "Footer자리입니다";
+   homeFooter.textContent = "© 2026 Holssi All rights reserved.";
    content.appendChild(homeFooter);
 }
