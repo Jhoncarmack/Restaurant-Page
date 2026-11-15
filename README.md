@@ -17,12 +17,9 @@ The Odin Project의 Restaurant Page 과제를 바탕으로 제작했습니다.
 
 ## 스크린샷
 
-<p align="center">
-  <img src="./restaurant0.png" width="30%" height = "300" alt="Holssi 홈화면">
-  <img src="./restaurant1.png" width="30%" height = "300"  alt="Holssi 홈화면">
-  <img src="./restaurant2.png" width="30%" height = "300" alt="Holssi 홈화면">
-
-</p>
+<img src="./restaurant0.png" width="30%" height="300" alt="Holssi 홈화면">
+<img src="./restaurant1.png" width="30%" height="300" alt="Holssi 홈화면">
+<img src="./restaurant2.png" width="30%" height="300" alt="Holssi 홈화면">
 
 ## 주요 기능
 
