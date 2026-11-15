@@ -10,10 +10,9 @@ Home · Menu · Contact 버튼으로 화면을 전환할 수 있습니다.
 처리하는 과정을 연습했습니다.
 The Odin Project의 Restaurant Page 과제를 바탕으로 제작했습니다.
 
-데모
-배포 주소 추가 예정입니다.
+## 데모
 
-<!-- 배포 완료 후 이 문장을 실제 사이트 링크로 교체하세요. -->
+[데모 링크](https://jhoncarmack.github.io/Restaurant-Page/)
 
 ## 스크린샷
 
